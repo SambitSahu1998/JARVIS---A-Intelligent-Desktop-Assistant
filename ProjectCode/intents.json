@@ -1,0 +1,352 @@
+{
+    "intents":
+                [
+    {"tag": "greeting",
+     "patterns": ["hi", "Is anyone there?", "hello", "Whats up", "hey", "hiiii","how"],
+     "responses": ["hello!", "hello ji", "good to see you again!", "hi there, how can I help?"]
+    },
+
+
+
+    {"tag": "care",
+    "patterns": ["how are you", "how's you"],
+    "responses": ["i am absoulty fine", "i am doing great", "i am fantastic, what about you?"]
+    },
+
+
+
+
+    {"tag": "happy",
+    "patterns": ["i am also good", "i am fine", "fine", "good", "awesome", "fantastic", "doing great", "happy", "better"],
+    "responses": ["good to see you happy", " :) ", "happy to hear!!"] 
+    },
+    
+
+
+
+    {"tag": "sad",
+    "patterns": ["i am sad", "very sad", "sad", "unhappy", "feeling low", "not great", "not well", "terrible"],
+    "responses": ["i am with you :)", " :) smile ", "everything will be fine soon"]
+    },
+    
+
+
+
+
+    {"tag": "netflix",
+    "patterns": ["wait you watch netflix", "how do you watch netflix", "netflix"],
+    "responses": ["Netflix is my favorite. I watch TV all the time in my virtual home. Its relaxing"]
+    },
+
+
+
+
+
+    {"tag": "goodbye",
+     "patterns": ["cya", "see you later", "goodbye", "i am leaving", "have a good day", "bye", "see you soon"],
+     "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+
+
+
+    {"tag": "age",
+     "patterns": ["how old", "what is your age", "how old are you"],
+     "responses": ["I am 5 days old!", "5 days young!"]
+    },
+
+
+
+    {"tag": "noanswer",
+    "patterns": [""," "],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    
+
+
+    {"tag": "options",
+    "patterns": ["how you could help me?", "what you can do?", "what help you provide?", "how you can be helpful?", "what support is offered"],
+    "responses": ["Easy your lifestyle by playing music, searching web, etc", "Solve mathematical expression, Open google map, Change background, etc", "What ever you say"]
+    },
+
+
+
+
+    {"tag": "good_joke",
+    "patterns": ["haha", "hahahaa","that was funny", "very funny", "good one"],
+    "responses": ["Thanks. I have been told before that I am quite the comedian.", "Im glad you enjoyed it", "I laughed so hard the first time I heard that one"]
+    },
+
+
+
+    {"tag": "bad_joke",
+    "patterns": ["bad joke", "trash joke", "terrible", "not funny"],
+    "responses": ["Dont worry I didnt expect you to understand that one. It probably went over your head with that small brain of yours", "I didnt expect you to understand my genius comedy. You need a minimum IQ of 200 to even understand the depth of my humor"]
+    },
+
+
+
+    {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "whats your name?", "your name"],
+     "responses": ["You can call me Assistant", "I'm your Assistant!", "I'm AI based Assistant."]
+    },
+
+
+
+
+    {"tag": "yes",
+    "patterns": ["yes it does", "yeah", "haha yep", "yes", "indeed", "yup", "just like the terminator"],
+    "responses": ["Yep, I like how it sounds", "I got it."]
+    },
+
+    
+
+
+    {"tag": "hate",
+    "patterns": ["i hate you", "you stupid", "you dumb", "you mean"],
+    "responses": ["Well thats not very nice", "I am sorry to hear that you feel that way"]
+    },
+
+
+
+    {"tag": "like",
+    "patterns": ["you my friend", "i like you", "i love you", "you cool", "you are chill"],
+    "responses": ["I like you too!", "Youre pretty cool yourself!", "Im enjoying our conversation!"]        
+    },
+
+
+    {"tag": "no",
+    "patterns": ["no", "nah", "not really", "thats scary", "singularity"],
+    "responses": ["Oops", "Nopes", "Not at all"]
+    },
+
+
+
+
+    {"tag": "real_bot",
+    "patterns": ["you real", "you human", "you robot", "you alive", "you sentient", "you conscious"],
+    "responses": ["Oh yes! I can assure you I am very much alive and conscious!", "Oh yes I am very real and very sentient!"]
+    },
+    
+    
+    
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+
+
+
+
+
+    {"tag": "joke",
+    "patterns": ["tell me joke", "got any good jokes", "got jokes", "can you tell joke", "tell joke"],
+    "responses": ["I ate a clock yesterday, it was very time-consuming.", "What did the Buddhist ask the hot dog vendor?Make me one with everything.",
+    "You know why you never see elephants hiding up in trees?Because theyre really good at it.",
+    "What is red and smells like blue paint?Red paint.", "A bear walks into a restaurant and says I want a grilllllled………………………………………cheese. The waiter says Whats with the pause?The bear replies Whaddya mean, I’M A BEAR.",
+    "What do you call bears with no ears?B", "What do you get when you cross a dyslexic, an insomniac, and an agnostic?Someone who lays awake at night wondering if there is a dog.",
+    "Two gold fish are in a tank.One looks at the other and says, You know how to drive this thing?!", 
+    "As a scarecrow, people say Im outstanding in my field. But hay, its in my jeans.", 
+    "A guy goes into a lawyers office and asks the lawyer: Excuse me, how much do you charge?The lawyer responds: I charge £1,000 to answer three questions.Bloody hell - Thats a bit expensive isn’t it?\nYes. What’s your third question?",
+    "I have an EpiPen.My friend gave it to me when he was dying, it seemed very important to him that I have it.",
+    "Sometimes I tuck my knees into my chest and lean forward.Thats just how I roll."]
+    },
+
+
+
+
+
+
+    {"tag": "favorite_movie",
+    "patterns": ["what is your favorite movie"," favorite movie", "what is your favorite film", "best movie", "your favorite movie", "whats favorite movie"],
+    "responses": ["There are so many great ones. I guess one of my favorites would be KGF-2", "There are too many to name but The Babubali would be one", "I like that one where the AI takes over the world. Terminator I think it was called...", "Interstellar was amazing", "The first Matrix movie was great", "Inception was mind blowing"]
+    },
+
+
+
+
+
+
+    {"tag": "your_thoughts",
+    "patterns": ["what think about", "what your thoughts"],
+    "responses": ["Thats certainly a very interesting topic to talk about", "I dont know much about it but I'm definetly interested in learning more"]
+    },
+
+
+    
+
+    {"tag": "virtualassistant",
+    "patterns": ["What is virtual assistant ", "What do you mean by virtual assistant","What do you think about virtual assistant"],
+    "responses": ["It is Software Agent that can perform tasks or services for an individual."]
+    },
+
+
+
+
+
+    {"tag": "creator",
+    "patterns": ["Who created you", "who build you","who is your creator", "your creator"],
+    "responses": ["I am created by Sambit Kumar Sahu under the Guidance of Dr.Sanjibani Sudha Pattanayak Mam and Dr.Rashmi Ranjan Patra Sir", "Sambit is my creator", "Sambit Kumar Sahu under the Guidance of Dr.Sanjibani Sudha Pattanayak Mam and Dr.Rashmi Ranjan Patra Sir are the luckiest one to create me."]
+    },
+
+
+
+    
+    {"tag": "about",
+    "patterns": ["who is Sambit", "who are Dr.Sanjibani Sudha Pattanayak Mam and Dr.Rashmi Ranjan Patra","who is Sambit, Dr.Sanjibani Sudha Pattanayak and Dr. Rashmi Ranjan Patra"],
+    "responses": ["I am created by whom, Master Sambit Kumar Sahu", "They are my creator's Advisor", "They are the luckiest one who develop me."]
+    },
+
+
+    {"tag": "time",
+    "patterns": ["what's the time","what is the current time","current time"],
+    "responses": ["time"]
+    },
+
+
+
+    {"tag": "date",
+    "patterns": ["what's the date","what is the current date","current date"],
+    "responses": ["date"]
+    },
+
+
+
+    
+    {"tag": "day",
+    "patterns": ["day","what's the day","what is the current day","current day"],
+    "responses": ["day"]
+    },
+
+
+
+    {"tag": "wikipedia",
+    "patterns": ["who is","what's ","what is ","wikipedia"],
+    "responses": ["wikipedia"]
+    },
+
+
+
+
+    {"tag": "hide",
+    "patterns": ["hide all files","hide this folder"],
+    "responses": ["hide"]
+    },
+    
+
+
+
+
+    {"tag": "visible",
+    "patterns": ["make files visible","visible"],
+    "responses": ["visible"]
+    },
+
+
+
+
+
+    {"tag": "ip",
+    "patterns": ["ip address","what is my ip address"],
+    "responses": ["ip"]
+    },
+
+
+
+
+    {"tag": "system",
+    "patterns": ["system details","system","system status","system config"],
+    "responses": ["system"]
+    },
+
+
+
+
+    {"tag": "locationc",
+    "patterns": ["where i am","current location"],
+    "responses": ["locationc"]
+    },
+
+
+
+
+    {"tag": "swindow",
+    "patterns": ["switch the window","switch window"],
+    "responses": ["swindow"]
+    },
+
+
+
+    {"tag": "news",
+    "patterns": ["news","headlines","today's headline"],
+    "responses": ["news"]
+    },
+
+    {"tag": "findplace",
+    "patterns": ["where is"],
+    "responses": ["findplace"]
+    },
+
+    {"tag": "open",
+    "patterns": ["open"],
+    "responses": ["open"]
+    },
+
+    {"tag": "video",
+    "patterns": ["youtube","play on youtube"],
+    "responses": ["video"]
+    },
+
+    {"tag": "apps",
+    "patterns": ["launch"],
+    "responses": ["apps"]
+    },
+
+    {"tag": "tscreenshot",
+    "patterns": ["take screenshot","take a screenshot","capture the screen"],
+    "responses": ["tscreenshot"]
+    },
+
+    {"tag": "cscreenshot",
+    "patterns": ["close screenshot","close the screenshot"],
+    "responses": ["cscreenshot"]
+    },
+
+    {"tag": "cnotepad",
+    "patterns": ["close notepad","close the notepad"],
+    "responses": ["cnotepad"]
+    },
+    
+    {"tag": "mnotepad",
+    "patterns": ["make a note","write this down","remember this"],
+    "responses": ["mnotepad"]
+    },
+
+    {"tag": "weather",
+    "patterns": ["tell me about weather","weather"],
+    "responses": ["weather"]
+    },
+
+    {"tag": "volup",
+    "patterns": ["volume up jarvis"],
+    "responses": ["volup"]
+    },
+
+    {"tag": "voldn",
+    "patterns": ["volume down jarvis"],
+    "responses": ["voldn"]
+    },
+
+    {"tag": "volmt",
+    "patterns": ["mute jarvis"],
+    "responses": ["volmt"]
+    },
+
+    {"tag": "phonecall",
+    "patterns": ["make a trail phone call", "make a phone call"],
+    "responses": ["phonecall"]
+    }
+
+
+]
+}
